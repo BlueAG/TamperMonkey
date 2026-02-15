@@ -2,7 +2,7 @@
 // @name         IMDb - Show Current Age
 // @namespace    https://github.com/BlueAG/TamperMonkey
 // @icon         https://www.google.com/s2/favicons?domain=imdb.com
-// @version      1.0.0
+// @version      1.0.1
 // @description  Shows current age or "would be" age inside birth-and-death-section
 // @author       BlueAG
 // @match        https://www.imdb.com/name/nm*
