@@ -8,7 +8,7 @@
 // @match          https://www.imdb.com/name/nm*
 // @grant          none
 // @downloadURL    https://github.com/BlueAG/TamperMonkey/blob/main/IMDb%20-%20Show%20Current%20Age.js
-// @updateURL      https://github.com/BlueAG/TamperMonkey/blob/main/IMDb%20-%20Show%20Current%20Age.js
+// @updateURL      https://raw.githubusercontent.com/BlueAG/TamperMonkey/acc36b4c513361318255c851b49c8cc68240beb0/IMDb%20-%20Show%20Current%20Age.js
 // ==/UserScript==
 
 (function() {
