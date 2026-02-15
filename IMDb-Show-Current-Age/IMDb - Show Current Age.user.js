@@ -2,13 +2,14 @@
 // @name           IMDb - Show Current Age
 // @namespace      https://github.com/BlueAG/TamperMonkey
 // @icon           https://www.google.com/s2/favicons?domain=imdb.com
-// @version        1.0.1
+// @version        1.0.0
 // @description    Shows current age or "would be" age inside birth-and-death-section
 // @author         BlueAG
+// @license        MIT
 // @match          https://www.imdb.com/name/nm*
 // @grant          none
-// @downloadURL    https://github.com/BlueAG/TamperMonkey/blob/main/IMDb%20-%20Show%20Current%20Age.js
-// @updateURL      https://raw.githubusercontent.com/BlueAG/TamperMonkey/acc36b4c513361318255c851b49c8cc68240beb0/IMDb%20-%20Show%20Current%20Age.js
+// @downloadURL    
+// @updateURL      
 // ==/UserScript==
 
 (function() {
@@ -65,7 +66,7 @@
         const ageText = document.createElement('span');
         ageText.id = 'imdb-age-text';
         ageText.style.cssText = `
-            margin-left: 1px;
+            margin-left: 0px;
             font-size: 1.05em;
             font-weight: 500;
             color: ${isDeceased ? '#c62828' : '#2e7d32'};
