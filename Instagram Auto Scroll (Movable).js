@@ -1,13 +1,15 @@
 // ==UserScript==
-// @name         Instagram Auto Scroll (Movable)
-// @icon         https://www.instagram.com/favicon.ico
-// @namespace    https://github.com/BlueAG/TamperMonkey
-// @version      1.3
-// @description  Auto-scroll through Instagram feed with movable controls
-// @author       BlueAG
-// @match        https://www.instagram.com/*
-// @match        https://instagram.com/*
-// @grant        none
+// @name           Instagram Auto Scroll (Movable)
+// @icon           https://www.instagram.com/favicon.ico
+// @namespace      https://github.com/BlueAG/TamperMonkey
+// @version        1.0.0
+// @description    Auto-scroll through Instagram feed with movable controls
+// @author         BlueAG
+// @match          https://www.instagram.com/*
+// @match          https://instagram.com/*
+// @grant          none
+// @downloadURL    https://github.com/BlueAG/TamperMonkey/blob/main/Instagram%20Auto%20Scroll%20(Movable)-1.3.user.js
+// @updateURL
 // ==/UserScript==
 
 (function() {
