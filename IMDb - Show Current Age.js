@@ -65,7 +65,7 @@
         const ageText = document.createElement('span');
         ageText.id = 'imdb-age-text';
         ageText.style.cssText = `
-            margin-left: 12px;
+            margin-left: 1px;
             font-size: 1.05em;
             font-weight: 500;
             color: ${isDeceased ? '#c62828' : '#2e7d32'};
